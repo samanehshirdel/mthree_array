@@ -14,7 +14,10 @@ int main(){
     cout << sa.at(0) << endl;
 
     SmartArray sa2 = sa.copy(sa);
+    cout << sa2.at(0) << endl;
+    sa.at(0) = 555;
     cout << sa.at(0) << endl;
+    cout << sa2.at(0) << endl;
 
     return 0;
 }

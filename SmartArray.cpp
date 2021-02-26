@@ -28,7 +28,8 @@ int &SmartArray::at(int pos) {
     return list.at(pos);
 }
 
-SmartArray &SmartArray::copy(SmartArray smartArray) {
+SmartArray SmartArray::copy(SmartArray smartArray) {
+
 
     return smartArray;
 }

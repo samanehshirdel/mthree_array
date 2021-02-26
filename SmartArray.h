@@ -24,9 +24,7 @@ public:
 
     int& at( int pos);
 
-    SmartArray& copy(SmartArray smartArray);
-
-
+    SmartArray copy(SmartArray smartArray);
 
 
 };
